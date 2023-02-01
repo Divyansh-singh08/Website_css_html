@@ -53,7 +53,7 @@ ul{
     list-style:none;
 }
 
-/* utility class   */
+/* ************************************utility class*************************   */
 
 .small-bold-text {
     font-size: 1rem;
@@ -115,7 +115,7 @@ ul{
     color:var(--accent-color) !important;
 }
 
-/* top-banner  */
+/* **********************************top-banner ********************* */
 .top-banner{
     background-image:url('./assets/asset\ 32.png');
     background-color: #4fb3d4;
@@ -150,7 +150,9 @@ ul{
     gap:40px;
 }
 
-/* header section  */
+
+
+/* *************************header section ************************* */
 .header{
     padding:50px var(--padding-inline-section) 0;
 }
@@ -177,7 +179,7 @@ ul{
 }
 
 
-/* companies section  */
+/********************************* companies section ************************** */
 
 .companies-header{
     text-align:center;
@@ -192,4 +194,164 @@ ul{
 
 .logo{
     height: 46px;
+}
+
+/* ************************feature section ***************************/
+
+.feactures-section{
+    padding:80px var(--padding-inline-section) 0;
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.feature-header{
+    text-align:center;
+}
+
+.feature-heading-text{
+    margin-bottom:20px;
+}
+
+/***************************** feature area********************/
+.feature-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:40px;
+    margin-top: 20px;
+}
+
+.feature-card{
+    flex-direction: column;
+    gap:20px;
+    max-width:30% ;
+    text-align: center;
+}
+
+.feature-card img{
+    width:60px;
+}
+
+/******************************* big-feature section ************************/
+
+.big-feature-section{
+    padding:30px var(--padding-inline-section) 0;
+
+}
+
+.big-feature-container{
+    gap:30px;
+}
+
+.feature-img img{
+    width:100%;
+}
+
+.feature-desciption{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*********************************** example section*********************** */
+
+.example-header{
+    /* text-align: center; */
+    flex-direction: column;
+    gap:20px;
+}
+
+/* .example-heading-text{
+    margin-bottom: 20px;
+} */
+
+.examples-area{
+    justify-content: space-between;
+    margin-block:30px;
+}
+
+.example-card{
+    width:23%;
+    position:relative;
+    min-height: 300px;
+    background:black;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 37.jpeg);
+    background-size: cover;
+    transition:0.2s ease-out;
+}
+.example-card:hover{
+    box-shadow: 0 0 15px #888;
+}
+
+.example-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 38.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 39.jpeg);
+    background-size: cover;
+}
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    right:20px;
+    color:white;
+}
+
+
+/****************************************** cta-section ************************************************************/
+
+.CTA-section{
+    padding:120px var(--padding-inline-section) 80px;
+    background-color:#183b54;
+}
+.cta-section-container{
+    flex-direction: column;
+    gap:30px;
+    color:white;
+}
+
+.cta-section-container p{
+    color:white;
+    margin-top:20px;
+}
+
+
+/********************************************************* footer section ****************************************************/
+footer{
+    padding-block: 80px;
+    background-color:#ebf2fa;
+}
+
+
+.link-column{
+    flex-direction: column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/******************************************************* subfooter********************************************  */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding:var(--padding-inline-section);
+
+}
+
+.sub-footer-container{
+    justify-content: center;
+    gap:30px;
 }
